@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KDAG Bootcamp Registeration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data.png">
+
+</head>
+<script src="script.js"></script>
+<body class="bg">
+    <header>
+            <div class="top">
+                <span class="white logo1">Kharagpur <span class="bolds">Data</span> </span>
+                <span class="link">
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#schd">Schedule</a>
+                </span>
+            </div>
+            <div class="top">
+                <span class="white logo1"> <span class="bolds"> Analytics </span> Group</span>
+                <span class="link">
+                    <a href="register.html">Register</a>
+                </span>
+            </div> 
+                
+            <hr>
+            
+
+           
+           <h1 class="white"> REGISTER FOR THE BOOTCAMP</h1>
+
+       </header> 
+    <main>
+        <form id="forms">
+            <fieldset class="bg2 red">
+                <legend>REGISTRATION FORM</legend>
+                <div class="gridView">
+                    <label class="white">UserName<span class="red">*</span>: </label><br>
+                    <input type="text" id="username" > <br><br>
+
+                    <label class="white">Roll Number<span class="red">*</span>: </label><br>
+                    <input type="text" id="roll" placeholder="eg 26MF10019"> <br><br>
+
+                    <label class="white">Email<span class="red">*</span>: </label><br>
+                    <input type="email" id="mail" placeholder="xyz@kgpian.iitkgp.ac.in" > <br><br>
+
+                    <label class="white">Select Department<span class="red">*</span>: </label><br>
+                    <select id="dept">
+                        <!-- <option value="">Select Department in IIT Kharagpur</option> -->
+                        <option value="AE">Aerospace</option>
+                        <option value="AG">Agriculture</option>
+                        <option value="AI">AI</option>
+                        <option value="BT">Biotechnology</option>
+                        <option value="CH">Chemical</option>
+                        <option value="CL">Civil</option>
+                        <option value="CS">Computer Science</option>
+                        <option value="EE">Electrical</option>
+                        <option value="EC">Electronics</option>
+                        <option value="IO">Industrial</option>
+                        <option value="IE">Instrumentation</option>
+                        <option value="ME">Mechanical</option>
+                        <option value="MF">Manufacturing</option>
+                        <option value="MT">Metallurgy</option>
+                        <option value="MI">Mining</option>
+                        <option value="NA">Ocean Engineering</option>
+
+                    </select><br><br>
+                    <!-- <label class="white">Gender: </label> 
+                    <span class="white"><input type="radio" name="gender" value="male">Male</span>
+                    <span class="white"><input type="radio" name="gender" value="female">Female</span><br>
+
+                    <label class="white">Interested: </label>
+                    <span class="white"><input type="checkbox">Python</span>
+                    <span class="white"><input type="checkbox">Data Analytics</span><br> -->
+                    
+
+                    <label class="white">Queries: </label> <br>
+                    <textarea id="query" rows="4" cols="4"></textarea><br><br>
+                </div>
+                <div class="buttonView">
+                    <button type="button" onclick ="Ondata()">Register</button>
+                    <button type="reset">Reset</button>
+                    <!-- <button type="button" onclick="Ondata()">Factory</button> -->
+                </div>
+            </fieldset>
+
+        </form>
+
+        <section id="popup" class="bg3 hidden">
+            <h2 class="red">Registration Successful!</h2>
+            <p class="white"> Registration Successful! Welcome to the BootCamp!</p>
+            <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum sapiente aliquid?</p>
+        </section>
+
+    </main>
+
+    <hr>
+    <footer class="white">
+
+        <small><a href="index.html">Main Menu</a></small>
+        <small><a href="https://www.instagram.com/kdag.iitkgp/?hl=en">Follow Us</a></small>
+        <!-- <small>Credits</small> -->
+        <small><a href="https://kdagiitkgp.com">KDAG</a></small>
+
+       </footer>
+</body>
+</html>
