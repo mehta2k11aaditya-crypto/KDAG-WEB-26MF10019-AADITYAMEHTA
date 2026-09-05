@@ -1,11 +1,1 @@
-CSS Display Property
-================ ====
 
-=> Block Elements (div, p, h1-h6, etc) some inline elements (span, a, button, input, img)
-
-=> width and height parameters only work on block elements 
-=> we can use display : inline and display : block
-=> display : inline-block, means width and height would work but it would not take the complete size of viewport, meaning we can add things in same line that way
-=> display : none, it will completely remove the elements
-=> visibility : hidden, will make it hide, but the space will still be taken (like it just made it invisible)
-=> display : flex, the cards would be in column, if display : grid, the cards would be in rowwise, but make sure to have gap: 1rem
